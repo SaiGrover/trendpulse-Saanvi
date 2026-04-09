@@ -42,12 +42,9 @@ The dataset contains real-time news articles fetched from an API and cleaned for
 * Highlights dominant news platforms
 
 📸 **Screenshot:**
-*Add bar chart or output here*
 
-```markdown
 <img width="304" height="303" alt="image" src="https://github.com/user-attachments/assets/697b0766-80e1-42c1-9c59-6dae29372a0e" />
 
-```
 
 ---
 
@@ -59,10 +56,7 @@ The dataset contains real-time news articles fetched from an API and cleaned for
 
 📸 **Screenshot:**
 
-```markdown
 <img width="289" height="122" alt="image" src="https://github.com/user-attachments/assets/e3f71905-a08d-4666-ab71-1dae56ed08c0" />
-
-```
 
 ---
 
@@ -72,10 +66,8 @@ The dataset contains real-time news articles fetched from an API and cleaned for
 
 📸 **Screenshot:**
 
-```markdown
-<img width="293" height="349" alt="image" src="https://github.com/user-attachments/assets/484a5ff9-a239-4f55-b330-1bbcd8fbbfb1" />
 
-```
+<img width="293" height="349" alt="image" src="https://github.com/user-attachments/assets/484a5ff9-a239-4f55-b330-1bbcd8fbbfb1" />
 
 ---
 
@@ -86,10 +78,7 @@ The dataset contains real-time news articles fetched from an API and cleaned for
 
 📸 **Screenshot:**
 
-```markdown
 <img width="348" height="229" alt="image" src="https://github.com/user-attachments/assets/4a46b81b-6aec-41fb-b96c-ebd19cc5e664" />
-
-```
 
 ---
 
@@ -100,10 +89,8 @@ The dataset contains real-time news articles fetched from an API and cleaned for
 
 📸 **Screenshot:**
 
-```markdown
 <img width="364" height="228" alt="image" src="https://github.com/user-attachments/assets/04e3a8c4-c825-4463-b272-96b327241b5f" />
 
-```
 
 ---
 
@@ -113,10 +100,7 @@ The dataset contains real-time news articles fetched from an API and cleaned for
 
 📸 **Screenshot:**
 
-```markdown
 <img width="474" height="289" alt="4" src="https://github.com/user-attachments/assets/70e15e5c-4cb0-428a-a2e9-b058742f9a91" />
-
-```
 
 ---
 
