@@ -34,8 +34,14 @@ TrendPulse is a Python-based data pipeline that fetches real-time trending news 
 
 ## ▶️ How to Run
 
-1. Add your API key in `task1_data_collection.py`
-2. Run scripts in order:
+1. Use `.env.example` as the template for the required `NEWSAPI_KEY` variable.
+2. Export the variable before running. For PowerShell:
+
+```powershell
+$env:NEWSAPI_KEY = "your-newsapi-key"
+```
+
+3. Run scripts in order:
 
 ```bash
 python task1_data_collection.py

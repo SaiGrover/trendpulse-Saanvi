@@ -1,12 +1,23 @@
-import requests
-import pandas as pd
 import os
+import sys
 
-API_KEY = "[REDACTED_NEWSAPI_KEY]"  # Replace with your NewsAPI key
-URL = f"https://newsapi.org/v2/top-headlines?country=in&pageSize=100&apiKey={API_KEY}"
+import pandas as pd
+import requests
+
+API_KEY = os.getenv("NEWSAPI_KEY")
+URL = "https://newsapi.org/v2/top-headlines"
 
 def fetch_data():
-    response = requests.get(URL)
+    if not API_KEY:
+        sys.exit("NEWSAPI_KEY is not set. Export it before running this script.")
+
+    response = requests.get(
+        URL,
+        params={"country": "in", "pageSize": 100},
+        headers={"X-Api-Key": API_KEY},
+        timeout=30,
+    )
+    response.raise_for_status()
     data = response.json()
 
     articles = data.get("articles", [])
